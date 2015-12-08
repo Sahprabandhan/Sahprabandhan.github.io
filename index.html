@@ -34,7 +34,7 @@ and open the template in the editor.
                     if (xmlhttp.readyState===4 && xmlhttp.status===200) 
                         document.getElementById(targetElement).innerHTML = xmlhttp.responseText;
                 };
-                xmlhttp.open("GET","Resources/Script/getInfo.php?infoID="+infoElement,true);
+                xmlhttp.open("GET","Resources/Script/"+infoElement,true);
                 xmlhttp.send();
             }
             function fetchInfo(infoElement)
