@@ -10,6 +10,7 @@ and open the template in the editor.
 body{
     justify-content: center;
     align-content: center;
+    background-color: white;
 }
 .cssBoxShadow{
     box-shadow:0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important
@@ -84,4 +85,46 @@ body{
     /*    margin-right: auto;
     margin-top: auto;
     margin-bottom: auto*/
+}
+
+.cssFooter{
+    display:none; 
+    position: absolute;
+    bottom:5px;
+    right: 5px;
+    max-height: 10%;
+    overflow: hidden;
+    background-color: grey;
+    align-content: center;
+    padding: 5px;
+    margin: 1px auto;
+    width:auto;
+    z-index: 3;
+    border-radius: 7px;
+}
+
+.cssFooterPre{
+    display: inline;
+    float:right;
+    padding:2px;
+    margin:2px auto;
+    max-height:70%;
+    /*border-right-style: groove;
+    border-bottom-style: groove;
+    border-top-style: groove;*/
+}
+
+.cssFooterPre span{
+    font-size: 70%;
+}
+
+.cssFooterImg{
+    display: block;
+    float: right;
+    margin: 2px auto;
+    padding: 2px;
+    max-height:100%;
+    border-left-style: groove;
+    border-bottom-style: groove;
+    border-top-style: groove;
 }
